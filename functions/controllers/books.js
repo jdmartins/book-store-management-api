@@ -29,10 +29,7 @@ function getBooksInterval(
 }
 
 function orderByChild(obj, keyName) {
-  const newObj = Object.keys(obj).map((key, index) =>
-    Object.assign({}, obj[key], { id: key })
-  )
-  return _.sortBy(newObj, o => o[keyName].toLowerCase(), ['asc'])
+  return _.sortBy(obj, o => o[keyName].toLowerCase(), ['asc'])
 }
 
 // Export CRUD operations on books

@@ -28,7 +28,7 @@ app.use(
 // parse application/json
 app.use(bodyParser.json())
 
-app.get('/', (req, rest) => {
+app.get('/', (req, res) => {
   res.redirect(308, '/docs')
 })
 app.get('/docs', (req, res) => {

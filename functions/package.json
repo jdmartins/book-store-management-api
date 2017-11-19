@@ -16,7 +16,8 @@
     "node-cache": "^4.1.1",
     "body-parser": "^1.18.2",
     "faker": "^4.1.0",
-    "consolidate": "^0.15.0"
+    "consolidate": "^0.15.0",
+    "lodash": "^4.17.4"
   },
   "private": true
 }
